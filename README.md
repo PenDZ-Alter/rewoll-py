@@ -9,7 +9,7 @@ git clone https://github.com/PenDZ-Alter/rewoll-py
 
 ### How to use?
 1. There's to options to input your credentials <br>
-    Using args : 
+    Using args : <br>
     To connect via args, you can use this example command : 
     ```bash
     python main.py -hs <host> -p 22 -u <mikrotik_user> -k <ssh_key_pem> -m <mac_addr> -i <interface>
@@ -26,7 +26,7 @@ git clone https://github.com/PenDZ-Alter/rewoll-py
     PORT= # Port of SSH mikrotik
     ```
 
-    Don't forget to rename `.env.example` to `.env`, otherwise this will not work for you
+    Don't forget to rename `.env.example` to `.env`, otherwise this will not work for you.
 
 2. If you using env, simply run this command : 
     ```bash
