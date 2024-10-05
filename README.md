@@ -26,6 +26,8 @@ git clone https://github.com/PenDZ-Alter/rewoll-py
     PORT= # Port of SSH mikrotik
     ```
 
+    Don't forget to rename `.env.example` to `.env`, otherwise this will not work for you
+
 2. If you using env, simply run this command : 
     ```bash
     python main.py
