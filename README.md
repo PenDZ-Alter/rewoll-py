@@ -7,6 +7,11 @@ Before you do anything, clone this repository
 git clone https://github.com/PenDZ-Alter/rewoll-py
 ```
 
+Then, install the packages <br>
+```bash
+pip install -r requirements
+```
+
 ### How to use?
 1. There's to options to input your credentials <br>
     Using args : <br>
