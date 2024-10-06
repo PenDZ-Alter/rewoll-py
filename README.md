@@ -9,7 +9,7 @@ git clone https://github.com/PenDZ-Alter/rewoll-py
 
 Then, install the packages <br>
 ```bash
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### How to use?
