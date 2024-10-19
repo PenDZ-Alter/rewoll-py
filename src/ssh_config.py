@@ -21,7 +21,7 @@ class SSHConfig:
     try:
       # Authentication using either password or private key
       if self.private_key_path:
-        print(f"Using private key for authentication: {self.private_key_path}")
+        print(f"Using private key for authentication")
         private_key = paramiko.RSAKey.from_private_key_file(self.private_key_path)
         ssh.connect(self.host, username=self.user, pkey=private_key, port=self.port)
       elif self.password:
